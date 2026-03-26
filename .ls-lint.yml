@@ -1,0 +1,12 @@
+ls:
+  .dir: kebab-case
+  .*: kebab-case
+
+ignore:
+  - .git
+  - .husky
+  - .vscode
+  - dist
+  - node_modules
+  - README.md
+  - src/reports

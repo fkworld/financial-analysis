@@ -1,0 +1,33 @@
+{
+  "name": "financial-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "pdf-to-md": "python scripts/pdf-to-md.py",
+    "lint:ls-lint": "ls-lint",
+    "lint:oxlint": "oxlint --fix",
+    "lint:oxfmt": "oxfmt",
+    "lint:commitlint": "commitlint",
+    "lint:lint-staged": "lint-staged"
+  },
+  "dependencies": {
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@ls-lint/ls-lint": "^2.3.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "skills": "^1.4.6"
+  },
+  "engines": {
+    "node": "24.11.1",
+    "pnpm": "10.23.0"
+  },
+  "packageManager": "pnpm@10.23.0"
+}

@@ -1,0 +1,8 @@
+{
+  "cSpell.words": ["commitlint", "markitdown", "oxfmt", "oxlint"],
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  }
+}
